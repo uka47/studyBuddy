@@ -1,0 +1,192 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+    background-color: #9DFCC5;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+h1{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold;  
+    font-size: 3rem;
+    line-height: 1.5;
+    color: rgb(85, 42, 10);
+}
+
+h2{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold; 
+    color: rgb(85, 42, 10);
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold;  
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(85, 42, 10);
+}
+
+/* navbar */
+.navbar{
+    padding:1% 3%;
+}
+.navbar-brand{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.5rem;
+}
+.nav-item{
+    padding:0 12px;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+.download-button{
+    margin: 3% 1% 3% 1%;
+}
+
+.download-button:hover{
+    color: #6079FF;
+}
+
+.title-image{
+    width: 75%;
+    transform: rotate(15deg);
+    padding: 5% 5% 5% 5%;
+}
+
+/* features */
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon{
+    color: #F56639;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #9DFCC5;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #9DFCC5;
+    height: 400px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* press */
+#press{
+    background-color: #9DFCC5;
+    text-align: center;
+}
+
+.press-logo{
+    width: 6%;
+    margin: 20px 30px 50px;
+}
+
+/* price */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card-header{
+    height: 100px;
+    background-color: #F56639;
+    color: white;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card-box{
+    height: 140px;
+}
+
+/* Call to Action Section CTA */
+
+#cta{
+    background-color: #9DFCC5;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: #F56639;
+}
+
+/* Media Query Section */
+
+@media (max-width: 540px){
+    h1{ 
+    font-size: 2rem;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    width: 70%;
+    transform: rotate(0);
+    }
+}
+
+@media (max-width: 767px){
+    .title-image{
+    width: 50%;
+    }
+}
+
+@media (max-width:1071px) {
+    .card-header{
+        height: 80px;
+        background-color: #F56639;
+        color: white;
+    }
+    .card-box{
+        height: 110px;
+    }
+}
